@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -e "----------------------"
+echo -e "  Post CHECKOUT ......"
+echo -e "----------------------"
+exit 0
