@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-test
-    command: ls -al
+    command: echo "Will return non-zero value" && exit -1
