@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -e "-----------------------------"
+echo -e "  This is the custom build   "
+echo -e "-----------------------------"
+docker image build --build-arg GO_ENV=$GO_ENV -f $DOCKERFILE_PATH -t $IMAGE_NAME .

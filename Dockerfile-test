@@ -1,7 +1,7 @@
 FROM alpine:3.12
 
 ARG GO_ENV=test
-ENV GO_ENV=$GO_ENV
+ENV GO_ENV $GO_ENV
 
 WORKDIR /home
 
